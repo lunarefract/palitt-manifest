@@ -15,3 +15,9 @@ function injectScript(filePath, id) {
 }
 
 injectScript("palitt.js", "palitt-injected");
+
+const backgroundStyle = "linear-gradient(to bottom, rgb(5, 0, 10), rgb(10, 0, 0))";
+
+// Body gradient
+document.body.style.background = backgroundStyle;
+document.body.style.backgroundAttachment = "fixed";
